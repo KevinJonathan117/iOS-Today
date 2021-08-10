@@ -24,22 +24,24 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0j-KE-WcY">
-                                            <rect key="frame" x="0.0" y="27.5" width="44" height="44"/>
+                                            <rect key="frame" x="20" y="27.5" width="44" height="44"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="44" id="Ckx-6V-EwW"/>
                                                 <constraint firstAttribute="width" secondItem="F0j-KE-WcY" secondAttribute="height" multiplier="1:1" id="SFs-DE-12o"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <state key="normal" image="circle" catalog="system"/>
+                                            <connections>
+                                                <action selector="doneButtonTriggered:" destination="SxP-Ei-dGh" eventType="touchUpInside" id="Acq-mG-Y4k"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pd0-kN-vzD">
-                                            <rect key="frame" x="52" y="20" width="33" height="21"/>
+                                            <rect key="frame" x="72" y="20" width="33" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQO-If-Ptx">
-                                            <rect key="frame" x="52" y="49" width="36" height="21"/>
+                                            <rect key="frame" x="72" y="49" width="36" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -48,8 +50,8 @@
                                     <constraints>
                                         <constraint firstItem="Pd0-kN-vzD" firstAttribute="leading" secondItem="F0j-KE-WcY" secondAttribute="trailing" constant="8" symbolic="YES" id="07d-yx-gtg"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Pd0-kN-vzD" secondAttribute="trailing" constant="20" symbolic="YES" id="3AP-kV-uzL"/>
+                                        <constraint firstItem="F0j-KE-WcY" firstAttribute="leading" secondItem="1IB-2n-PkF" secondAttribute="leading" constant="20" symbolic="YES" id="7kD-bs-TRQ"/>
                                         <constraint firstItem="Pd0-kN-vzD" firstAttribute="top" secondItem="1IB-2n-PkF" secondAttribute="top" constant="20" symbolic="YES" id="Fvx-k1-8Lk"/>
-                                        <constraint firstItem="F0j-KE-WcY" firstAttribute="leading" secondItem="1IB-2n-PkF" secondAttribute="leading" id="HfM-D6-s8C"/>
                                         <constraint firstItem="F0j-KE-WcY" firstAttribute="centerY" secondItem="1IB-2n-PkF" secondAttribute="centerY" id="Hh9-Ew-jsc"/>
                                         <constraint firstItem="OQO-If-Ptx" firstAttribute="leading" secondItem="Pd0-kN-vzD" secondAttribute="leading" id="IqA-VI-kLq"/>
                                         <constraint firstItem="OQO-If-Ptx" firstAttribute="top" secondItem="Pd0-kN-vzD" secondAttribute="bottom" constant="8" symbolic="YES" id="NGF-X4-DOh"/>
@@ -59,7 +61,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="dateLabel" destination="OQO-If-Ptx" id="i4j-Rb-i5e"/>
-                                    <outlet property="doneButton" destination="F0j-KE-WcY" id="fs0-FB-lT4"/>
+                                    <outlet property="doneButton" destination="F0j-KE-WcY" id="RcX-3r-Idx"/>
                                     <outlet property="titleLabel" destination="Pd0-kN-vzD" id="yBB-uh-jIR"/>
                                 </connections>
                             </tableViewCell>
@@ -76,7 +78,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
