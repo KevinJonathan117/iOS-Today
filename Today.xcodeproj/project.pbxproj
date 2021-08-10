@@ -14,6 +14,7 @@
 		5D234F3726C243560024D32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D234F3626C243560024D32D /* Assets.xcassets */; };
 		5D234F3A26C243560024D32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D234F3826C243560024D32D /* LaunchScreen.storyboard */; };
 		5D234F4226C245D10024D32D /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F4126C245D10024D32D /* Reminder.swift */; };
+		5D234F4426C2672B0024D32D /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F4326C2672B0024D32D /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D234F3926C243560024D32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D234F3B26C243560024D32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D234F4126C245D10024D32D /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		5D234F4326C2672B0024D32D /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5D234F3826C243560024D32D /* LaunchScreen.storyboard */,
 				5D234F3B26C243560024D32D /* Info.plist */,
 				5D234F4126C245D10024D32D /* Reminder.swift */,
+				5D234F4326C2672B0024D32D /* ReminderListCell.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D234F3226C243560024D32D /* ViewController.swift in Sources */,
+				5D234F4426C2672B0024D32D /* ReminderListCell.swift in Sources */,
 				5D234F2E26C243560024D32D /* AppDelegate.swift in Sources */,
 				5D234F3026C243560024D32D /* SceneDelegate.swift in Sources */,
 				5D234F4226C245D10024D32D /* Reminder.swift in Sources */,
