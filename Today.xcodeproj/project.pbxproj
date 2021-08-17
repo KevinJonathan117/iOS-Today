@@ -17,6 +17,7 @@
 		5D234F4426C2672B0024D32D /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F4326C2672B0024D32D /* ReminderListCell.swift */; };
 		5D234F4626C2774E0024D32D /* ReminderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F4526C2774E0024D32D /* ReminderDetailViewController.swift */; };
 		5D234F7F26CBC63B0024D32D /* ReminderListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F7E26CBC63B0024D32D /* ReminderListDataSource.swift */; };
+		5D234F8126CBC8A60024D32D /* ReminderDetailViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D234F8026CBC8A60024D32D /* ReminderDetailViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5D234F4326C2672B0024D32D /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 		5D234F4526C2774E0024D32D /* ReminderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewController.swift; sourceTree = "<group>"; };
 		5D234F7E26CBC63B0024D32D /* ReminderListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListDataSource.swift; sourceTree = "<group>"; };
+		5D234F8026CBC8A60024D32D /* ReminderDetailViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				5D234F4326C2672B0024D32D /* ReminderListCell.swift */,
 				5D234F4526C2774E0024D32D /* ReminderDetailViewController.swift */,
 				5D234F7E26CBC63B0024D32D /* ReminderListDataSource.swift */,
+				5D234F8026CBC8A60024D32D /* ReminderDetailViewDataSource.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				5D234F4426C2672B0024D32D /* ReminderListCell.swift in Sources */,
 				5D234F2E26C243560024D32D /* AppDelegate.swift in Sources */,
 				5D234F4626C2774E0024D32D /* ReminderDetailViewController.swift in Sources */,
+				5D234F8126CBC8A60024D32D /* ReminderDetailViewDataSource.swift in Sources */,
 				5D234F3026C243560024D32D /* SceneDelegate.swift in Sources */,
 				5D234F4226C245D10024D32D /* Reminder.swift in Sources */,
 				5D234F7F26CBC63B0024D32D /* ReminderListDataSource.swift in Sources */,
